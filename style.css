@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'Roboto Lt';
+    src: url('fonts/Roboto-Light.woff2') format('woff2'),
+        url('fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('fonts/Roboto-LightItalic.woff2') format('woff2'),
+        url('fonts/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-y: scroll;
+    background-color: #FAFAFA;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#entete {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+#entete_gauche {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+
+
+img {
+    height: 135px;
+    width: 165px;
+}
+
+
+#texte 
+{
+    margin-top: 1%;
+}
+
+#texte p:first-child {
+
+    font-family: 'Roboto Lt';
+    color: #608128;
+    font-size: 24px;
+}
+
+#texte p:last-child {
+
+    font-family: 'Roboto-LightItalic';
+    font-size: 18px;
+    margin-top: -8%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 300px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Roboto Lt';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0;
+}
+
+#menu {
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #446902;
+    text-decoration: underline;
+}
+
+#menu a.actuel {
+    color:green;
+    font-size:18px;
+}
+
+#visuel 
+{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    object-position: center 46%;
+}
+
+#moitiephoto {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#moitiephoto img {
+    height: 100%;
+    width: 58%;
+    margin-left: 15%;
+    border: solid 2px #608128;
+    margin-top: 5%;
+}
+
+#moitietexte {
+    width: 50%;
+    height: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+h1 {
+font-family: 'Roboto Lt';
+text-align: center;
+}
+
+#moitietexte p {
+    font-family: 'Roboto Lt';
+    font-size: 24px;
+}
+
+#catherine {
+    text-align: right;
+    padding-right: 5%;
+}
+
+#outil {
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+.sous-menu {
+    color:#009900 !important;
+}
+
+#DL {
+    margin: 0 auto;
+    display: block;
+    width: 10em;
+    height: 2em;
+    font-family: 'Roboto Lt';
+    cursor: pointer;
+}
+
+#dl {
+    text-decoration: none;
+}
+
+
+#offre {
+    margin-top: 10px;
+}
+
+
+.tab-input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+  .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    font-family: 'Roboto Lt';
+  }
+
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #608128;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab-label:hover {
+    background:#455C1C;
+}
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all .35s;
+}
+    
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    background: #EBEBEB;
+    transition: all .35s;
+}
+
+.tab-input:checked + .tab-label {
+    background: #78A132;
+}
+
+.tab-input:checked + .tab-label::after {
+    transform: rotate(90deg);
+}
+          
+.tab-input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+    color: black;
+    font-family: 'Roboto Lt';
+}
+
+form {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto Lt';
+}
+
+label, input {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    background-color: white;
+    border: solid 1px black;
+    height: 4%;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}

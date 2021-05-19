@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css"/>
+        <title>Catherine Courret - Contact</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="entete">
+                <div id="entete_gauche">
+                    <div id="photo">
+                    <img src="img/logo.png" alt="Logo" title="Catherine Courret Coaching">
+                    </div>
+                    <div id="texte">
+                    <p>Catherine Courret Coaching</p>
+                    <p>Formations et coaching d'entreprises</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <hr color="#608128">
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                    <div class="dropdown">
+                        <li><a id="outil" href="outils.html">Outils &#x25bc</a></li>
+                         <div class="dropdown-content">
+                             <a href="processuscoaching.html">Processus coaching</a>
+                             <a href="hbdi.html">HBDI</a>
+                             <a href="CNV.html">CNV</a>
+                             <a href="PNL.html">PNL</a>
+                             <a href="analyse.html">Analyse Transactionnelle</a>
+                             <a href="meditation.html">Méditation</a>
+                             <a href="eft.html">EFT</a>
+                             <a href="approche.html">Approche pédagogique</a>
+                             <a href="sylvotherapie.html">Sylvothérapie</a>
+                           </div>
+                         </div>
+                    <li><a href="offres.html">Offres</a></li>
+                    <li><a class="actuel" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+         </div>
+         <img id="visuel" src="img/arbre.jpg" alt="Arbres" title="Arbres">
+
+         <body>
+            <h1>Contact</h1>
+            <form method="post">
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" placeholder="Courret" required>
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="nom" placeholder="Catherine" required>
+                <label for="mail">Email:</label>
+                <input type="email" name="email" placeholder="catherine.courret@gmail.com" required>
+                <label for="mail">Numéro de téléphone:</label>
+                <input type="phone" name="phone" placeholder="+33 (0) 6 63 03 04 30">
+                <label for="sujet-select">Sujet:</label>
+                <input type="text" name="sujet" placeholder="Demande de renseignements, prix d'une prestation, prise de RDV.." required>
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+                <button id="DL" alt="DL" width="104" height="142" type="submit">Envoyer</button>
+            </form>
+</body>
