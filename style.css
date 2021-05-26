@@ -62,7 +62,7 @@ img {
 #texte p:first-child {
 
     font-family: 'Roboto Lt';
-    color: #608128;
+    color: #EB1F12;
     font-size: 24px;
 }
 
@@ -97,12 +97,12 @@ hr {
 }
 
 a:hover {
-    color: #446902;
+    color: #A81F12;
     text-decoration: underline;
 }
 
 #menu a.actuel {
-    color:green;
+    color:#EB1F12;
     font-size:18px;
 }
 
@@ -111,7 +111,7 @@ a:hover {
     width: 100%;
     object-fit: cover;
     height: 200px;
-    object-position: center 46%;
+    object-position: center 25%;
 }
 
 #moitiephoto {
@@ -124,7 +124,7 @@ a:hover {
     height: 100%;
     width: 58%;
     margin-left: 15%;
-    border: solid 2px #608128;
+    border: solid 2px #EB1F12;
     margin-top: 5%;
 }
 
@@ -187,11 +187,11 @@ text-align: center;
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #EB1F12;
   }
 
 .sous-menu {
-    color:#009900 !important;
+    color:#EB1F12 !important;
 }
 
 #DL {
@@ -234,13 +234,13 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: #608128;
+    background: #EB1F12;
     font-weight: bold;
     cursor: pointer;
 }
 
 .tab-label:hover {
-    background:#455C1C;
+    background:#A81F12;
 }
 .tab-label::after {
     content: "\276F";
@@ -259,7 +259,7 @@ text-align: center;
 }
 
 .tab-input:checked + .tab-label {
-    background: #78A132;
+    background: #EB1F12;
 }
 
 .tab-input:checked + .tab-label::after {
