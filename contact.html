@@ -33,20 +33,35 @@
          <img id="visuel" src="img/arbre.jpg" alt="Arbres" title="Arbres">
 
          <body>
-            <h1>Contact</h1>
-            <form method="post">
-                <label for="nom">Nom:</label>
-                <input type="text" name="nom" placeholder="Courret" required>
-                <label for="prenom">Prénom:</label>
-                <input type="text" name="nom" placeholder="Catherine" required>
-                <label for="mail">Email:</label>
-                <input type="email" name="email" placeholder="catherine.courret@gmail.com" required>
-                <label for="mail">Numéro de téléphone:</label>
-                <input type="phone" name="phone" placeholder="+33 (0) 6 63 03 04 30">
-                <label for="sujet-select">Sujet:</label>
-                <input type="text" name="sujet" placeholder="Demande de renseignements, prix d'une prestation, prise de RDV.." required>
-                <label>Message</label>
-                <textarea name="message" required></textarea>
-                <button id="DL" alt="DL" width="104" height="142" type="submit">Envoyer</button>
-            </form>
+            <div id="moitie_formulaire">
+                <h1>Formulaire:</h1>
+                <form method="post">
+                    <label for="nom">Nom:</label>
+                    <input type="text" name="nom" placeholder="Courret" required>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" name="nom" placeholder="Catherine" required>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="email" placeholder="catherine.courret@gmail.com" required>
+                    <label for="mail">Numéro de téléphone:</label>
+                    <input type="phone" name="phone" placeholder="+33 (0) 6 63 03 04 30">
+                    <label for="sujet-select">Sujet:</label>
+                    <input type="text" name="sujet" placeholder="Demande de renseignements, prix d'une prestation, prise de RDV.." required>
+                    <label>Message</label>
+                    <textarea name="message" required></textarea>
+                    <button id="DL" alt="DL" width="104" height="142" type="submit">Envoyer</button>
+                </form>
+            </div>
+            <div id="moitie-infos">
+                <h1>Informations de contact:</h1>
+                <div class="informations">
+                    <div>📧</div> <div><a href="mailto: catherinecourret@gmail.com" class="liens">catherinecourret@gmail.com</a></div>
+                </div>
+                <div class="informations">
+                    <div>💻</div> <div><a href="https://www.linkedin.com/in/catherine-courret/?originalSubdomain=fr" target="_blank" class="liens">LinkedIn</a></div>
+                </div>          
+                <div class="informations">
+                    <div>☎</div> <div><a href="tel:+33663030430">06.63.03.04.30</a></div> 
+                </div>      
+            </div>
+
 </body>
