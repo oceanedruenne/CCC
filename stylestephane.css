@@ -126,3 +126,8 @@
     font-style: italic;
     padding-bottom: 14%;
 }
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+}
