@@ -32,6 +32,19 @@
 
     #moitietexte {
         height: auto;
+        margin-top: 15%;
+    }
+
+    #presentation {
+        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: stretch;
+            align-content: stretch;
+        
+        
     }
 }
 
@@ -40,6 +53,12 @@
 nav a {
     font-size: 1em;
 }
+
+#moitietexte {
+    height: auto;
+    margin-top: 15%;
+}
+
 
 nav ul {
     flex-direction: column;
@@ -134,6 +153,12 @@ ul{
     width: 50%;
     margin-bottom: 30px;
 }
+
+#moitietexte {
+    height: auto;
+    margin-top: 15%;
+}
+
 }
 @media(max-width: 1200px){
   .footer-col{
