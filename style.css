@@ -255,3 +255,7 @@ a {
 }
 
 
+#backbutton {
+    display: flex;
+    margin: 0 auto;
+}
