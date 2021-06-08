@@ -121,11 +121,11 @@ a:hover {
 }
 
 #moitiephoto img {
-    height: 100%;
-    width: 58%;
-    margin-left: 15%;
+    margin-left: 25%;
     border: solid 2px #EB1F12;
     margin-top: 5%;
+    height: 350px;
+    width: 335px;
 }
 
 #moitietexte {
@@ -234,3 +234,24 @@ a {
     align-items: baseline;
     align-content: stretch;
 }
+
+
+#flexbox {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#presentation {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+

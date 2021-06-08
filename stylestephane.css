@@ -2,42 +2,6 @@
     height: 32px;
     width: auto;
 }
-#footer {
-    background: linear-gradient(to top, #F5938C ,#FAFAFA);
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    width: 100%;
-    padding-top: 4%; 
-    position: bottom;
-}
-#footer a.actuel {
-    padding-top: 4%;
-    background: linear-gradient(to top, #f7a9a3  ,#FAFAFA);
-    text-decoration: underline;
-}
-
-#footer a {
-    font-size: 20px;
-    margin-right: 4%;   
-    color: black;
-    text-decoration: none;
-    margin-left: 3%;
-}
-
-#footer img {
-     height: auto;
-    width: 23px;
-    float: right;
-    padding-right: 9%;
-}
-
-#footer a:hover {
-    padding-top: 4%;
-    background: linear-gradient(to top, #f37870,#FAFAFA);
-    color: #000000;
-}
       
 .titres_quisuisje {
     font-weight: bold;

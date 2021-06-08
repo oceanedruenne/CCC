@@ -2,8 +2,10 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="stylestephane.css"/>
         <link rel="stylesheet" href="responsive.css"/>
-        <title>Catherine Courret - Contact</title>
+        <title>Catherine Courret Coaching</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
     </head>
     <body>
 
@@ -11,7 +13,7 @@
             <div id="entete">
                 <div id="entete_gauche">
                     <div id="photo">
-                    <img src="img/logo.png" alt="Logo" title="Catherine Courret Coaching">
+                   <img src="img/logo.png" alt="Logo" title="Catherine Courret Coaching">
                     </div>
                     <div id="texte">
                     <p>Catherine Courret Coaching</p>
@@ -20,21 +22,23 @@
                 </div>
             </div>
         </header>
-        <hr color="#EB1F1">
+        <hr color="#EB1F12">
         <div id="menu">
             <nav>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                    <li><a class="actuel" href="quisuisje.html">Qui suis-je ?</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a class="actuel" href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://fr.linkedin.com/in/catherine-courret" target="_blank"><img id="linkedin" src="img/linkedin.png"></a></li>
                 </ul>
             </nav>
-         </div>
+        </div>
          <img id="visuel" src="img/arbre.jpg" alt="Arbres" title="Arbres">
-
-        <body id="contact">
-            <div id="moitie_formulaire">
+         
+    <div id="flexbox">
+        <div id="presentation">
+            <div id="moitiephoto">
                 <h1>Formulaire:</h1>
                 <form method="post">
                     <label for="nom">Nom:</label>
@@ -51,9 +55,9 @@
                     <textarea name="message" required></textarea>
                     <button id="DL" alt="DL" width="104" height="142" type="submit">Envoyer</button>
                 </form>
-            </div>
-            <div id="moitie-infos">
-                <h1>Informations de contact:</h1>
+                </div>
+                <div id="moitietexte">
+                    <h1>Informations de contact:</h1>
                 <div class="informations">
                     <div>📧</div> <div><a href="mailto: catherinecourret@gmail.com" class="liens">catherinecourret@gmail.com</a></div>
                 </div>
@@ -64,5 +68,51 @@
                     <div>☎</div> <div><a href="tel:+33663030430">06.63.03.04.30</a></div> 
                 </div>      
             </div>
+        </div>
+    
+    
+    
+
+
+        <footer class="footer">
+            <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Qui suis-je?</h4>
+                    <ul>
+                        <li><a href="#">Mon parcours</a></li>
+                        <li><a href="#">Mes valeurs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Accompagnement-Formation</a></li>
+                        <li><a href="#">Gestion des compétences</a></li>
+                        <li><a href="#">Coaching personnalisé</a></li>
+                        <li><a href="#">Coaching sylvatique</a></li>
+                        <li><a href="#">Gestion de stress</a></li>
+                <li><a href="#">Pack Team Building</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">catherinecourret@gmail.com</a></li>
+                        <li><a href="#">06.63.03.04.30</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suivez moi</h4>
+                    <div class="social-links">
+                        <a a href="https://fr.linkedin.com/in/catherine-courret" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </div>
         </body>
+   
+
 </html>

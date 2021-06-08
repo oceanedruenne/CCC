@@ -1,72 +1,19 @@
-@media screen and (max-width: 1220px)
-{
-
-    body {
-        overflow-y: auto;
-    }
-
-
-    #entete_un {
-        justify-content: center;
-    }
-
-    #moitiephoto, #moitietexte {
-        width: 100%;
-        float: none;
-    }
-
-    #moitiephoto {
-        height: 30vh;
-        width: 30vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 16px;
-    }
-
-
-    #moitiephoto img {
-        width: 240px;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    #moitietexte {
-        height: auto;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
 }
-
-@media screen and (max-width: 910px)
-{
-nav a {
-    font-size: 1em;
+.container{
+	max-width: 1170px;
+	margin:auto;
 }
-
-nav ul {
-    flex-direction: column;
-    align-items: center;
-}
-
-nav li {
-    margin-bottom: 8px;
-}
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    }
-}
-
 .row{
 	display: flex;
 	flex-wrap: wrap;
 }
 ul{
 	list-style: none;
-    padding-left: 0;
 }
 .footer{
 	background-color: #24262b;
@@ -135,8 +82,11 @@ ul{
     margin-bottom: 30px;
 }
 }
-@media(max-width: 1200px){
+@media(max-width: 574px){
   .footer-col{
     width: 100%;
 }
 }
+
+
+
