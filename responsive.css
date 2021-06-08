@@ -3,6 +3,8 @@
 
     body {
         overflow-y: auto;
+        height: 100%;
+        width: 100%;
     }
 
 
@@ -148,7 +150,7 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
+@media screen and(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
@@ -160,8 +162,13 @@ ul{
 }
 
 }
-@media(max-width: 1200px){
+@media screen and (max-width: 1200px){
   .footer-col{
+    width: 100%;
+}
+
+body {
+    height: 100%;
     width: 100%;
 }
 }
