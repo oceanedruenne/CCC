@@ -33,8 +33,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: space-between;
+	align-items: baseline;
 	align-content: stretch;
 }
 
@@ -44,6 +44,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: stretch;
+    margin-left: -5%;
 }
 
 
@@ -124,8 +125,8 @@ a:hover {
     margin-left: 25%;
     border: solid 2px #EB1F12;
     margin-top: 5%;
-    height: 350px;
-    width: 335px;
+    height: 600px;
+    width: 575px;
 }
 
 #moitietexte {
@@ -254,8 +255,33 @@ a {
 	align-content: stretch;
 }
 
-
 #backbutton {
+    margin-left: 18%;
+    font-family: 'Roboto Lt';
+    height: 25px;
+    width: 155px;
+}
+
+
+
+i {
+    font-size: 16px;
+}
+
+#confiance {
     display: flex;
-    margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: stretch;
+}
+
+#certification {
+    width: 345px;
+}
+
+#sylvo {
+    height: 305px !important;
+    width: 425px !important;
 }
